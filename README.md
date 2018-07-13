@@ -24,7 +24,7 @@ npm install
 
 ### Optional:
 
-Copy keyRing.sample to keyRing.js and edit the accounts you want to send from or to receive from
+Copy keyRing.sample to keyRing.js and edit the accounts you want to send from, or to receive from
 Copy sample.env to .env and configure the http endpoint you want to use to connect to the EOS network
 
 ## Usage:
@@ -123,3 +123,5 @@ eosComm.decrypt(fromAcct, toAcct, message)
 		console.log("decryption error:", err);
 	});
 ```
+
+For full example, see <a href='https://github.com/CryptoMechanics/eos-communication/blob/master/example.js'>example.js</a>

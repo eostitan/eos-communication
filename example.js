@@ -3,12 +3,12 @@ var eosCommunications = require("./index.js");
 //Configuration options, if omitted will default to keyRing.js and .env files
 var opts = {
 	network:{
- 		httpEndpoint: "http://api.eostitan.com",
-	  chainId: 'aca376f206b8fc25a6ed44dbdc66547c36c6c33e3a119ffbeaef943642f0e906'
+ 		httpEndpoint: "http://api.eostitan.com", //api endpoint to use
+	  chainId: 'aca376f206b8fc25a6ed44dbdc66547c36c6c33e3a119ffbeaef943642f0e906' //mainnet
 	},
 	keys:[
 		{
-			"account":  "myeosaccount", 
+			"account":  "myeosaccount", //replace with valid account, private and public keys
 			"priv_key": "5.....", 
 			"pub_key":  "EOS...."
 		}
@@ -17,7 +17,7 @@ var opts = {
 
 var eosCom = new eosCommunications(opts);
 
-//Testing encryption / decryption functions without sending to the blockchain. Require private / public keys to both accounts
+//Testing encryption / decryption functions without sending to the network. Require private / public keys to both accounts
 eosCom.encrypt("myeosaccount", "youraccount1", "Hello from EOS Titan!")
 	.then(encrypted=>{
 		console.log(encrypted);
@@ -36,7 +36,7 @@ eosCom.encrypt("myeosaccount", "youraccount1", "Hello from EOS Titan!")
 	})	
 
 
-//Encrypt and send message to the blockchain
+//Encrypt and send message to the network
 eosCom.send("myeosaccount", "youraccount1", "Hello from EOS Titan!")
 	.then(result=>{
 		console.log(result);
