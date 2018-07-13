@@ -24,7 +24,7 @@ npm install
 
 ### Optional:
 
-Copy keyRing.sample to keyRing.js and edit the accounts you want to send from, or to receive from
+Copy keyRing.sample to keyRing.js and edit the accounts you want to send from, or to receive with
 Copy sample.env to .env and configure the http endpoint you want to use to connect to the EOS network
 
 ## Usage:
@@ -51,7 +51,7 @@ const eosComm = new eosCommunications(opts);
 
 ## Functions:
 
-### .send : encrypt and sends a message in the memo field of a transfer
+### .send : encrypt and send a message in the memo field of a transfer
 
 fromAcct: account you want to send the message from
 
@@ -76,7 +76,7 @@ eosComm.send(fromAcct, toAcct, message, amount)
 
 block_num_or_id: block number of hash to scan for messages
 
-amount: minimum amount required to read message (default 0.0001)
+amount: minimum amount required to include message (default 0.0001)
 
 ```
 eosComm.scanForMessages(block_num_or_id, amount)
@@ -88,7 +88,7 @@ eosComm.scanForMessages(block_num_or_id, amount)
 	});
 ```
 
-### .encrypt : encrypts a message without sending it
+### .encrypt : encrypt a message without sending it
 
 fromAcct: account you want to send the message from
 
@@ -106,9 +106,9 @@ eosComm.encrypt(fromAcct, toAcct, message)
 	});
 ```
 
-### .decrypt : decrypts an encrypted message
+### .decrypt : decrypt an encrypted message
 
-fromAcct: from which you received the message
+fromAcct: account from which you received the message
 
 toAcct: account with which you received a message
 
