@@ -12,9 +12,13 @@ Decryption is done by combining the receiver's private key and the sender's publ
 
 ## Configuration:
 
-In command line, run:
+Please make sure nodejs (tested with version 8.11.3) is installed on your system.
+
+Clone the repository and install packages:
 
 ```
+git clone https://github.com/eostitan/eos-communication
+cd eos-communication
 npm install
 ```
 
