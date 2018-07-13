@@ -8,7 +8,9 @@ This node.js module allows on-chain encrypted communication on the EOS platform,
 
 It combines the sender's private key and the receiver's public key (using the account's active permission) to create a public key for encryption.
 
-Decryption is done by combining the receiver's private key and the sender's public key to create the private key necessary to decrypt the message.
+Decryption is achieved by combining the receiver's private key and the sender's public key to create the private key necessary to decrypt the message.
+
+This module uses eosjs and eosjs-ecc to communicate with the EOS network and to perform the required cryptographic operations.
 
 ## Configuration:
 
