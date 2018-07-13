@@ -39,7 +39,7 @@ const eosCommunications = require("./index.js");
 const eosComm = new eosCommunications();
 ```
 
-OR
+#### OR
 
 Using constructor parameters
 
