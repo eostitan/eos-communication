@@ -14,7 +14,7 @@ This module uses eosjs and eosjs-ecc to communicate with the EOS network and to 
 
 ## Configuration:
 
-Please make sure <a href='https://nodejs.org/en/'>node.js</a>is installed on your system (tested with version 8.11.3).
+Please make sure <a href='https://nodejs.org/en/'>node.js</a> is installed on your system (tested with version 8.11.3).
 
 Clone the repository and install packages:
 
