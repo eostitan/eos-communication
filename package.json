@@ -1,0 +1,24 @@
+{
+  "name": "eos-communication",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Guillaume Babin-Tremblay",
+  "license": "ISC",
+  "dependencies": {
+    "request": "*",
+    "knex": "*",
+    "pg": "*",
+    "dotenv": "*",
+    "underscore": "*",
+    "express": "*",
+    "url-join": "*",
+    "colors": "*",
+    "eosjs": "15.0.3",
+    "eosjs-ecc": "4.0.1",
+    "long": "3.2.0"
+  }
+}

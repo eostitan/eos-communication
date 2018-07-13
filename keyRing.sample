@@ -1,0 +1,9 @@
+//Copy, edit and rename to keyRing.js
+
+exports.keys = [
+	{
+		"account":"myeosaccount", // account name
+		"priv_key":"5.....",  // priv key
+		"pub_key":"EOS....." //pub key
+	}
+]
