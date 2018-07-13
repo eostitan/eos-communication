@@ -1,6 +1,6 @@
 ![EOS TITAN](./eos_logo_white.jpg "EOS TITAN")
 
-[https://www.eostitan.com](https://www.eostitan.com)
+[https://eostitan.com](https://eostitan.com)
 
 # eos-communication
 
