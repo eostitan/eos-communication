@@ -32,7 +32,7 @@ Copy sample.env to .env and configure the http endpoint you want to use to conne
 ```
 const eosCommunications = require("./index.js");
 
-const opt = {
+const opts = {
 	network:{
 		httpEndpoint: "http://api.eostitan.com",
 		chainId: 'aca376f206b8fc25a6ed44dbdc66547c36c6c33e3a119ffbeaef943642f0e906'
