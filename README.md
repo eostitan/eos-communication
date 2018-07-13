@@ -124,4 +124,4 @@ eosComm.decrypt(fromAcct, toAcct, message)
 	});
 ```
 
-For full example, see <a href='https://github.com/CryptoMechanics/eos-communication/blob/master/example.js'>example.js</a>
+For full example, see <a href='https://github.com/eostitan/eos-communication/blob/master/example.js'>example.js</a>
