@@ -24,7 +24,7 @@ exports.send = function(fromAcct, toAcct, message, amount = 0.0001){
 		crypto.encrypt(fromAcct, toAcct, message)
 			.then(result=>{
 				
-				console.log("encrypted message:");
+				//console.log("encrypted message:");
 				console.log(result);
 
 				eos.transfer({from: fromAcct, to: toAcct, quantity: `${amount} EOS`, memo: result})

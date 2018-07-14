@@ -24,22 +24,7 @@ cd eos-communication
 npm install
 ```
 
-### Optional:
-
-Copy keyRing.sample to keyRing.js and edit the accounts you want to send from, or to receive with.
-
-Copy sample.env to .env and configure the http endpoint you want to use to connect to the EOS network.
-
 ## Usage:
-
-Using keyRing.js and .env configuration
-```
-const eosCommunications = require("./index.js");
-
-const eosComm = new eosCommunications();
-```
-
-#### OR
 
 Using constructor parameters
 

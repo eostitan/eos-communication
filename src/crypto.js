@@ -3,7 +3,6 @@ const dotenv = require('dotenv');
 const Eos = require('eosjs');
 const eosecc = require("eosjs-ecc");
 const Long = require("long");
-const colors = require("colors");
 
 function serialize(buff){
 
