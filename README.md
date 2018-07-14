@@ -88,7 +88,7 @@ eosComm.send(fromAcct, toAcct, message, amount)
 
 ### .scanForMessages : scan a block for any messages addressed to one of your accounts
 
-block_num_or_id: block number or hash to scan for messages
+block_num_or_id: number or hash of block to scan for messages
 
 amount: minimum amount required to include message (default 0.0001)
 
