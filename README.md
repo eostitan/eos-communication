@@ -102,6 +102,8 @@ eosComm.scanForMessages(block_num_or_id, amount)
 	});
 ```
 
+## Testing
+
 ### .encrypt : encrypt a message without sending it
 
 fromAcct: account you want to send the message from
