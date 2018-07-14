@@ -90,7 +90,7 @@ eosComm.send(fromAcct, toAcct, message, amount)
 
 block_num_or_id: number or hash of block to scan for messages
 
-amount: minimum amount required to include message (default 0.0001)
+amount: minimum amount required to include message in results (default 0.0001)
 
 ```
 eosComm.scanForMessages(block_num_or_id, amount)
